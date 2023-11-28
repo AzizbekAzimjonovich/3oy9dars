@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="siderbar__header">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./img/logo.svg" alt="" width="44">
+                        <span>ТОО «Smart»</span>
+                    </a>
+                </div>
+                <div class="setting">
+                    <a href="#">
+                        <img src="./img/stting.svg" alt="" width="24">
+                    </a>
+                </div>
+            </div>
+
+            <div class="sidebar__nav">
+                <div class="company">
+                    <div class="checkbox">
+                        <a href="#">
+                            <span>КОМПАНИЯ</span>
+                            <img src="./img/vektor.svg" alt="">
+                        </a>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#"><img src="./img/image.svg" alt="" width="16"><span>Компания</span></a></li>
+                            <li><a href="#"><img src="./img/image2.svg" alt="" width="16"><span>Счета</span></a></li>
+                            <li><a href="#"><img src="./img/image3.svg" alt="" width="16"><span>Торговые
+                                        точки</span></a></li>
+                            <li><a href="#"><img src="./img/image4.svg" alt="" width="16"><span>Сотрудники</span></a>
+                            </li>
+                            <li><a href="#"><img src="./img/image5.svg" alt="" width="16"><span>Интеграция</span></a>
+                            </li>
+                            <li><a href="#"><img src="./img/image6.svg" alt="" width="16"><span>Отчёты и
+                                        финансы</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="management">
+                    <div class="company">
+                        <div class="checkbox">
+                            <a href="#">
+                                <span>ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</span>
+                                <img src="./img/vektor.svg" alt="" width="">
+                            </a>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#"><img src="./img/image7.svg" alt=""
+                                            width="16"><span>Организации</span></a></li>
+                                <li><a href="#"><img src="./img/image8.svg" alt="" width="16"><span>Доверенные
+                                            счета</span></a></li>
+                                <li><a href="#"><img src="./img/image9.svg" alt="" width="16"><span>Услуги</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar__footer">
+                <label for="id">
+                    <a href="#">
+                        <img src="./img/fills.svg" alt="">
+                        <span>Свернуть панель</span>
+                    </a>
+                </label>
+                <input type="checkbox" id="id">
+            </div>
+        </aside>
+        <main class="main">
+            <div class="header">
+                <h1>Все счета</h1>
+                <button>Выставить счёт</button>
+            </div>
+            <div class="table">
+                <div class="menyu">
+                    <a href="#">Выставленные</a>
+                    <a href="#">К оплате</a>
+                    <a href="#">История</a>
+                </div>
+                <div class="filter">
+                    <select class="select select1" name="" id="">
+                        <option value=""><p>Все торговые точки и операции</p></option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                    <input type="text" placeholder="Поиск по номеру счета">
+                    <select class="select select2" name="" id="">
+                        <option value="">
+                            <p>Фильтры</p>
+                            <img src="./img/vektor.svg" alt="">
+                        </option>
+                    </select>
+                    <select class="select select3" name="" id="">
+                        <option value="">
+                            <p>Действия</p>
+                            <img src="./img/vektor.svg" alt="">
+                        </option>
+                    </select>
+                </div>
+                <table>
+                    <tr>
+                        <th>
+                            <a href="#">
+                                <input type="checkbox">
+                            <p>Номер счета</p>
+                            </a>
+                        </th>
+                        <th>
+                            <select name="" id="">
+                                <option value="">Время и дата</option>
+                                <option value="">01.01-01.03</option>
+                                <option value="">01.03-01.05</option>
+                                <option value="">01.05-01.07</option>
+                                <option value="">01.07-01.09</option>
+                            </select>
+                        </th>
+                        <th>
+                            <p>Торговая точка / Оперция</p>
+                        </th>
+                        <th>
+                            <select name="" id="">
+                                <option value="">Сумма</option>
+                                <option value="">0-15000</option>
+                                <option value="">-20000-0</option>
+                                <option value="">200-9000</option>
+                                <option value="">-1000-200</option>
+                            </select>
+                        </th>
+                        <th>
+                            <p>Получено</p>
+                        </th>
+                        <th>
+                            <select name="" id="">
+                                <option value="">Статус</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="#">
+                                <input type="checkbox">
+                                <p>№32467</p>
+                            </a>
+                        </th>
+                        <th>
+                            <p>11:20 05.01.2019</p>
+                        </th>
+                        <th>
+                            <p>Smart Лазурный</p>
+                        </th>
+                        <th>
+                            <p>1500 тг</p>
+                            <p class="blur">−150 тг</p>
+                        </th>
+                        <th>
+                            <p>1350 тг</p>
+                        </th>
+                        <th>
+                            <button class="green">Оплачено</button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="#">
+                                <input type="checkbox">
+                                <p>№32466</p>
+                            </a>
+                        </th>
+                        <th>
+                            <p>21:18 02.01.2019</p>
+                        </th>
+                        <th>
+                            <p>Smart Ишим</p>
+                        </th>
+                        <th>
+                            <p>3 850 тг</p>
+                        </th>
+                        <th>
+                            <p></p>
+                        </th>
+                        <th>
+                            <button class="red">Отклонено</button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="#">
+                                <input type="checkbox">
+                                <p>Вывод</p>
+                            </a>
+                        </th>
+                        <th>
+                            <p>00:00 31.12.2018</p>
+                        </th>
+                        <th>
+                            <p>-</p>
+                        </th>
+                        <th>
+                            <p>−16 335 тг</p>
+                        </th>
+                        <th>
+                            <p></p>
+                        </th>
+                        <th>
+                            <button class="blue">Вывод средств</button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="#">
+                                <input type="checkbox">
+                                <p>№32467</p>
+                            </a>
+                        </th>
+                        <th>
+                            <p>11:20 29.12.2018</p>
+                        </th>
+                        <th>
+                            <p>Smart Лазурный</p>
+                        </th>
+                        <th>
+                            <p>1000 тг</p>
+                        </th>
+                        <th>
+                            <p></p>
+                        </th>
+                        <th>
+                            <button class="red">Отклонено</button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="#">
+                                <input type="checkbox">
+                                <p>№32467</p>
+                            </a>
+                        </th>
+                        <th>
+                            <p>11:20 29.12.2018</p>
+                        </th>
+                        <th>
+                            <p>Smart Лазурный</p>
+                        </th>
+                        <th>
+                            <p>1500 тг</p>
+                            <p class="blur">−150 тг</p>
+                        </th>
+                        <th>
+                            <p>1350 тг</p>
+                        </th>
+                        <th>
+                            <button class="green">Оплачено</button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="#">
+                                <input type="checkbox">
+                                <p>Комиссия</p>
+                            </a>
+                        </th>
+                        <th>
+                            <p>11:20 29.12.2018</p>
+                        </th>
+                        <th>
+                            <p>-</p>
+                        </th>
+                        <th>
+                            <p>−168 тг</p>
+                            <p class="blur"></p>
+                        </th>
+                        <th>
+                            <p></p>
+                        </th>
+                        <th>
+                            <button class="green">Оплачено</button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="#">
+                                <input type="checkbox">
+                                <p>№32467</p>
+                            </a>
+                        </th>
+                        <th>
+                            <p>11:20 29.12.2018</p>
+                        </th>
+                        <th>
+                            <p>Smart Лазурный</p>
+                        </th>
+                        <th>
+                            <p>1500 тг</p>
+                            <p class="blur">−150 тг</p>
+                        </th>
+                        <th>
+                            <p>1350 тг</p>
+                        </th>
+                        <th>
+                            <button class="green">Оплачено</button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="#">
+                                <input type="checkbox">
+                                <p>№32467</p>
+                            </a>
+                        </th>
+                        <th>
+                            <p>11:20 29.12.2018</p>
+                        </th>
+                        <th>
+                            <p>Smart Ишим</p>
+                        </th>
+                        <th>
+                            <p>9 980 тг</p>
+                            <p class="blur">−998 тг</p>
+                        </th>
+                        <th>
+                            <p>8 982 тг</p>
+                        </th>
+                        <th>
+                            <button class="red">Комиссия</button>
+                        </th>
+                    </tr>
+                    
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
